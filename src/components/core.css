@@ -1,0 +1,79 @@
+.video-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; /* Centered, equally separated, with space on edges */
+  gap: 20px;
+  }
+  .core{
+    padding: 10px;
+  }
+  .active{
+    background-color: #ffbb29;
+  }
+  .video-item {
+
+    flex-basis: 23%;
+    color: #757b8c;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: #1D1F25;
+    /* Add additional styling as needed */
+  }
+  .thumbnail {
+    width: 100%;
+    border-top-left-radius: 10px; /* Rounded upper left corner */
+    border-top-right-radius: 10px; /* Rounded upper right corner */
+  }
+  .details{
+    padding: 10px;
+  }
+  .info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .category {
+    flex-grow: 1;
+    color: #ffbb29;
+  }
+  
+  .duration {
+    text-align: right;
+  }
+  .read-more {
+    text-decoration: none;
+    color: #ffbb29;
+    padding-top: 4px;
+  }
+  .title{
+    font-size: larger;
+    color: aliceblue;
+    font-weight: bold;
+    padding: 2px;
+  }
+  .decsription{
+    font-size: 5;
+    padding: 2px;
+  }
+
+  .category-menu {
+    display: flex;
+    justify-content: flex-start;
+    padding: 15px 15px 15px 15px;
+  }
+  
+  .category-link {
+    display: inline-block;
+    padding: 8px 16px;
+    margin: 8px;
+    border-radius: 20px;
+    background-color: #1D1F25;
+    color: #757b8c;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .category-link:hover {
+    background-color: #ffbb29;
+  }
